@@ -1,0 +1,5 @@
+{
+	"from_date": '{{moment(updateFromDate.selectedDate).format()}}',
+	"to_date": '{{moment(updateToDate.selectedDate).format()}}',
+	"reason": '{{updateReason.inputText}}'
+}

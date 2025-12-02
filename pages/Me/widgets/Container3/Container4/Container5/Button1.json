@@ -1,0 +1,61 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 49,
+  "boxShadow": "none",
+  "buttonColor": "#FF6D2D",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": "{{!(leaveFrom.selectedDate && leaveTo.selectedDate)}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "cmhj879a09",
+  "leftColumn": 24,
+  "onClick": "{{moment(leaveTo.selectedDate).diff(leaveFrom.selectedDate, 'd') + 1 < 0?showAlert('Please select a valid To/From date.'):util.addLeave()}}",
+  "originalBottomRow": 56,
+  "originalTopRow": 52,
+  "parentColumnSpace": 7.7822265625,
+  "parentId": "4iwd1b4ym1",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "rightColumn": 40,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "text": "Save",
+  "topRow": 45,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "vhtat5ta9m",
+  "widgetName": "Button1"
+}

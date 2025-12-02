@@ -1,0 +1,7 @@
+{
+    "from_date":'{{ leaveFrom.selectedDate }}',
+    "to_date":'{{ leaveTo.selectedDate }}',
+    "reason": '{{ leaveReason.inputText }}',
+		"employee_ref": {{appsmith.user.email}},
+		"appliedBy": {{appsmith.user.email}}
+}

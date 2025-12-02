@@ -1,0 +1,22 @@
+{
+  "appIsExample": false,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#F4FFDE",
+  "evaluationVersion": 2,
+  "icon": "rocket",
+  "pages": [
+    {
+      "id": "Me",
+      "isDefault": true
+    },
+    {
+      "id": "My Team",
+      "isDefault": false
+    },
+    {
+      "id": "Manage Leaves",
+      "isDefault": false
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 9,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "950cgw8cos",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelText": "Member:",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "12",
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "optionLabel": "label",
+  "optionValue": "value",
+  "parentColumnSpace": 6.9375,
+  "parentId": "cgr844m4jj",
+  "parentRowSpace": 10,
+  "placeholderText": "Select Member",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "[\n    {\n        \"label\": \"Vijetha\",\n        \"value\":\"vijetha@appsmith.com\"\n    },\n    {\n        \"label\": \"Saroj\",\n        \"value\":\"saroj@appsmith.com\"\n    },\n    {\n        \"label\": \"Aishwarya\",\n        \"value\":\"aishwarya@appsmith.com\"\n    },\n    {\n        \"label\": \"Aparna\",\n        \"value\":\"aparna@appsmith.com\"\n    },\n    {\n        \"label\": \"Kamakshi\",\n        \"value\":\"kamakshi@appsmith.com\"\n    },\n    {\n        \"label\": \"Saptami\",\n        \"value\":\"saptami@appsmith.com\"\n    },\n    {\n        \"label\": \"Yatin\",\n        \"value\":\"yatin@appsmith.com\"\n    },\n    {\n        \"label\": \"Anand.kumar\",\n        \"value\":\"anand.kumar@appsmith.com\"\n    },\n    {\n        \"label\": \"Anandi\",\n        \"value\":\"anandi@appsmith.com\"\n    },\n    {\n        \"label\": \"Chandan.kumar\",\n        \"value\":\"chandan.kumar@moolya.com\"\n    },\n    {\n        \"label\": \"Laveena\",\n        \"value\":\"laveena@appsmith.com\"\n    },\n    {\n        \"label\": \"Nandan\",\n        \"value\":\"nandan@thinkify.io\"\n    },\n    {\n        \"label\": \"Parthvi\",\n        \"value\":\"parthvi@appsmith.com\"\n    },\n    {\n        \"label\": \"Prapulla.c\",\n        \"value\":\"prapulla.c@moolya.com\"\n    },\n    {\n        \"label\": \"Raksha\",\n        \"value\":\"raksha@appsmith.com\"\n    },\n    {\n        \"label\": \"Richa\",\n        \"value\":\"richa.sinha@moolya.com\"\n    },\n    {\n        \"label\": \"Shadab\",\n        \"value\":\"shadab@appsmith.com\"\n    },\n    {\n        \"label\": \"Shwetha.ramesh\",\n        \"value\":\"shwetha.ramesh@moolya.com\"\n    },\n    {\n        \"label\": \"Sripriya\",\n        \"value\":\"sripriya.radhakrishnan@moolya.com\"\n    },\n    {\n        \"label\": \"Harsha\",\n        \"value\":\"harsha.kulkarni@moolya.com\"\n    }\n]",
+  "topRow": 5,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "cufq6hmhz4",
+  "widgetName": "Select1"
+}

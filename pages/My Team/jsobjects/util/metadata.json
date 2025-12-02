@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "642a567737fcef7162643435_642a8ac237fcef71626438f5",
+  "id": "My Team_util",
+  "unpublishedCollection": {
+    "name": "util",
+    "pageId": "My Team",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "teamLeads",
+        "value": "['yatin@appsmith.com', 'aishwarya@appsmith.com', 'aparna@appsmith.com', 'kamakshi@appsmith.com', 'saptami@appsmith.com', 'saroj@appsmith.com']"
+      }
+    ]
+  }
+}

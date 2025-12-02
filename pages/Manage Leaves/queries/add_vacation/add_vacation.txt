@@ -1,0 +1,7 @@
+{
+    "from_date":'{{ moment(leaveFrom.selectedDate).format('YYYY-MM-DD') }}',
+    "to_date":'{{ moment(leaveTo.selectedDate).format('YYYY-MM-DD') }}',
+    "reason": '{{ leaveReason.inputText }}',
+		"employee_ref": {{Select1.selectedOptionValue}},
+		"appliedBy": {{appsmith.user.email}}
+}

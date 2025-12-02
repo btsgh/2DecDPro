@@ -1,0 +1,53 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 11,
+  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+  "buttonColor": "#ff6d2d",
+  "buttonVariant": "TERTIARY",
+  "displayName": "Icon Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconName": "helper-management",
+  "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{util.teamLeads.includes(appsmith.user.email)}}",
+  "key": "dzvzg6v0fj",
+  "leftColumn": 61,
+  "minWidth": 50,
+  "onClick": "{{navigateTo('Manage Leaves', {}, 'SAME_WINDOW')}}",
+  "parentColumnSpace": 17.1875,
+  "parentId": "inh0qhpag2",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tooltip": "Manage Leaves",
+  "topRow": 7,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "mu15u9vxlt",
+  "widgetName": "IconButton1"
+}
