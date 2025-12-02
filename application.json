@@ -17,6 +17,10 @@
     {
       "id": "Manage Leaves",
       "isDefault": false
+    },
+    {
+      "id": "Sheet1",
+      "isDefault": false
     }
   ]
 }
